@@ -10,6 +10,6 @@ exports.default = {
     jwt: process.env.JWT || 'stubJWT'
   },
   api: {
-    base_url: process.env.BASE_URL || 'https://powerful-lake-14918.herokuapp.com/api'
+	  base_url: process.env.BASE_URL || 'https://conduit.productionready.io/api' //https://powerful-lake-14918.herokuapp.com/api'
   }
 };

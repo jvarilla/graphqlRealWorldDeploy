@@ -21,6 +21,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var logger = void 0;
 
+logger = { log: function log(e) {
+      return console.log(e);
+    } };
+    
 if (_config2.default.server.env !== 'production') {
   logger = { log: function log(e) {
       return console.log(e);
