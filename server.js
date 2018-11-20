@@ -45,7 +45,10 @@ server.register({
 });
 
 server.connection({
-  port: _config2.default.server.port
+  port: _config2.default.server.port,
+   routes: {
+        cors: true
+    }
 });
 
 server.register({
